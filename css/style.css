@@ -1,1 +1,180 @@
 
+*{
+  box-sizing: border-box;
+}
+body
+ {
+  background-color: white;
+  
+}
+  h1
+     {
+        marging-bottom: 15px;
+        text-align: center;
+      }
+  .foundcolor1
+  {
+    background-color:#FFC0CB;
+    float: right;
+    text-align: right;
+    border: 1px solid black;
+    height: 40px;
+  }
+  .foundcolor2
+  {
+    background-color:#FF0000;
+    float: right;
+    text-align: right;
+    border:1px solid black;
+    height: 40px;
+  }
+
+   .foundcolor3
+  {
+    background-color:#f9e4b7;
+    float: right;
+    text-align: right;
+    border:1px solid black;
+    height: 40px;
+  }
+/*Responsive framework*/
+    .row{
+      width:100%;
+    }
+    /*Desktop Devices*/
+
+   @media(min-width:992px)
+    {
+       .group1
+       {
+          
+      float: left;
+      border: 1px solid black;
+      width: 30%;
+      height:100px;
+      background-color:#808080; 
+      font-family:cursive;
+      margin left:30px;
+      margin-right:30px;
+      color:black;
+        }
+        .group2
+        {
+
+          float: left;
+          border: 1px solid black;
+          width: 30%;
+          height:100px;
+          background-color:#808080; 
+          font-family:cursive;
+          margin left:30px;
+          margin-right:30px;
+          color:black;
+        }
+        .group3
+        {
+          float: left;
+          border: 1px solid black;
+          width: 30%;
+          height:100px;
+          background-color:#808080; 
+          font-family:cursive;
+          margin left:30px;
+          margin-right:30px;
+          color:black;
+
+        }
+
+    }
+    
+/*Table device*/
+   @media(min-width:768px) and (max-width:991px)
+   {
+       
+        .group1
+       {
+          
+      float: left;
+      border: 1px solid black;
+      width: 40%;
+      height:100px;
+      background-color:#808080; 
+      font-family:cursive;
+      margin left:30px;
+      margin-right:30px;
+      margin bottom: 30px;
+      color:black;
+        }
+        .group2
+        {
+
+          float: left;
+          border: 1px solid black;
+          width: 40%;
+          height:100px;
+          background-color:#808080; 
+          font-family:cursive;
+          margin left:30px;
+          margin-right:30px;
+          margin bottom:30px;
+          color:black;
+        }
+        .group3
+        {
+          margin left:10px;
+          margin-right:30px;
+          margin-top: 30px;
+
+           float:left;
+          border: 1px solid black;
+          width: 83%;
+          height:100px;
+          background-color:#808080; 
+          font-family:cursive;
+          color:black;
+
+        }
+
+  }
+/*Mobile Devices*/
+  @media(max-width:767px)
+  {
+       
+       .group1
+       {
+          float: left;
+          border:1px solid black;
+          width: 100%;
+          background-color: #808080; 
+          margin-top:10px;
+          margin-bottom:10px;
+          font-family:cursive;
+          color:black;
+
+        }
+        .group2
+       {
+          float: left;
+          border:1px solid black;
+          width: 100%;
+          background-color: #808080; 
+          margin-top:10px;
+          margin-bottom:10px;
+          font-family:cursive;
+          color:black;
+
+        }
+        .group3
+       {
+          float: left;
+          border:1px solid black;
+          width: 100%;
+          background-color: #808080; 
+          margin-top:10px;
+          margin-bottom:10px;
+          font-family:cursive;
+          color:black;
+
+        }
+    
+ }
